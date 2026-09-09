@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="https://i.imgur.com/uEKCG7B.gif" width="40" align="absmiddle" alt="Logo" /> Rickware - Labs© Discord Inspector V3
+# <img src="https://i.imgur.com/uEKCG7B.gif" width="40" height="40" alt="Logo" /> Rickware - Labs© Discord Inspector V3
 
 ### The Ultimate Browser-Based Dev & Analysis Tool for Discord Web
 
