@@ -1,14 +1,14 @@
 <div align="center">
 
-# 🕵️‍♂️ Rickware - Labs© Discord Inspector V3
+# <img src="https://i.imgur.com/uEKCG7B.gif" width="40" align="absmiddle" alt="Logo" /> Rickware - Labs© Discord Inspector V3
 
 ### The Ultimate Browser-Based Dev & Analysis Tool for Discord Web
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-7289da?logo=discord&logoColor=white)](https://discord.gg/Wk7d8mJgyN)
-[![License](https://img.shields.io/github/license/Dev-Rick-C137/discord-inspector?color=blue)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/Dev-Rick-C137/discord-inspector?color=yellow)](https://github.com/Dev-Rick-C137/discord-inspector/stargazers)
-[![Forks](https://img.shields.io/github/forks/Dev-Rick-C137/discord-inspector?color=orange)](https://github.com/Dev-Rick-C137/discord-inspector/network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/Dev-Rick-C137/discord-inspector)](https://github.com/Dev-Rick-C137/discord-inspector/commits/main)
+[![License](https://img.shields.io/github/license/Rickware-Labs-Official/Discord-Inspector-For-Developer?color=blue)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/Rickware-Labs-Official/Discord-Inspector-For-Developer?color=yellow)](https://github.com/Rickware-Labs-Official/Discord-Inspector-For-Developer/stargazers)
+[![Forks](https://img.shields.io/github/forks/Rickware-Labs-Official/Discord-Inspector-For-Developer?color=orange)](https://github.com/Rickware-Labs-Official/Discord-Inspector-For-Developer/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/Rickware-Labs-Official/Discord-Inspector-For-Developer)](https://github.com/Rickware-Labs-Official/Discord-Inspector-For-Developer/commits/main)
 
 </div>
 
@@ -23,6 +23,7 @@ Welcome to **Rickware - Labs© Discord Inspector V3** — a powerful, free, and 
 ## 📑 Table of Contents
 
 - [Features](#-features)
+- [Supported Clients](#-supported-clients)
 - [Installation & Usage](#-installation--usage)
 - [Core Modules](#-core-modules)
 - [Preview](#-preview)
@@ -37,9 +38,20 @@ Welcome to **Rickware - Labs© Discord Inspector V3** — a powerful, free, and 
 - 📦 **Webpack & Flux Search:** Browse internal modules and Flux stores, previewing source code and exported properties.
 - 🔍 **Advanced Element Inspection:** Search by ID, Class, Tag, Text, or CSS Selectors. Copy HTML, XPath, or CSS paths instantly.
 - 👻 **Reveal Hidden Elements:** Instantly unhide content blocked by `display: none` or `opacity: 0` via the Reveal Mode.
-- 🎯 **Pick Mode & Live Watch:** Target elements with a click (`Alt + Shift + I`) and monitor real-time DOM mutations.
+- 🎯 **Pick Mode & Live Watch:** Target elements with a click and monitor real-time DOM mutations. To open the DevTools in the Discord Client, use `Alt + Shift + I`. **Note:** Please ensure that this hotkey combination is not blocked by another software, otherwise the DevTools may fail to open! If you are using Discord on the Web, you can simply open the DevTools using `F12`.
 - 📡 **Code Scanner:** Capture and search through HTML, JS, CSS, images, and background network requests.
 - 🔓 **Auto De-hash:** Automatically translates cryptic, obfuscated Discord class names into readable terms.
+
+## 💻 Supported Clients
+
+This tool supports the standard web browser version as well as the following modded and desktop clients:
+
+- Normal Discord Client
+- Vencord
+- Better Discord
+- Discord Canary
+- Bluecord
+- Nightcord
 
 ## 🚀 Installation & Usage
 
@@ -71,11 +83,13 @@ The Inspector is a JavaScript file (`main.js`) that runs directly in your browse
 
 *A quick look at the Discord Inspector V3 in action.*
 
-| Main Dashboard | React Fiber Analysis | Webpack Explorer |
+| Search | Hidden | React |
 |:---:|:---:|:---:|
-| ![preview-1](https://via.placeholder.com/400x250/2f3136/ffffff?text=Dashboard+UI) | ![preview-2](https://via.placeholder.com/400x250/2f3136/ffffff?text=React+Props+%26+States) | ![preview-3](https://via.placeholder.com/400x250/2f3136/ffffff?text=Webpack+Search) |
-
-> *Replace these placeholder images with actual screenshots of your Inspector UI.*
+| ![Search](https://i.imgur.com/W9LhTrC.png) | ![Hidden](https://i.imgur.com/72Gc2Nu.png) | ![React](https://i.imgur.com/HLTwijB.png) |
+| **Webpack** | **Overlay** | **Overlay all Hitboxes** |
+| ![Webpack](https://i.imgur.com/sA0MWyy.png) | ![Overlay](https://i.imgur.com/p9Jmsrh.png) | ![Overlay all Hitboxes](https://i.imgur.com/YZG5Twb.png) |
+| **Inspector** | **Code** | **Settings** |
+| ![Inspector](https://i.imgur.com/dhtgVBo.png) | ![Code](https://i.imgur.com/GyLgGkU.png) | ![Settings](https://i.imgur.com/JdjiwOb.png) |
 
 </div>
 
@@ -95,7 +109,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 📜 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details. *(Make sure to update this section to "EULA" if you decided to use the custom license we discussed earlier).*
 
 ## 💬 Community & Support
 
